@@ -13,16 +13,74 @@ body{
 }
 
 .container{
+    border: 1px solid black;
     box-sizing: border-box;
-    padding:2%;
+    padding:4%;
     background-color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px black;
+    max-width: 400px;
+    max-height:550px;
 }
 
 .image-container{
-    outline:1px solid red;
     display:flex;
     justify-content: center;
 }
+
+.image-container img{
+    border-radius: 15px;
+    width:100%;
+}
+
+button{
+    background-color: hsl(47, 88%, 63%);
+    margin:15px 0;
+    border:none;
+    padding:7px 15px;
+    border-radius:5px;
+    font-weight: bolder;
+
+}
+
+.published{
+    font-weight: bolder;
+}
+
+h2{
+    margin:15px 0;
+    font-weight: 1500;
+}
+
+.paragraph{
+    color:hsl(0, 0%, 50%);
+    line-height: 1.5;
+}
+
+.profile{
+    height:auto;
+    margin:15px 0;
+    display:flex;
+    align-items: center;
+}
+
+.profile img{
+    margin: 0 15px 0 0;
+    width:10%;
+    height:auto;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    display :flex;
+    flex-direction: column;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+
 
 @media screen and (max-width: 375px){
     
