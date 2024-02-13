@@ -14,12 +14,11 @@ body{
 
 .container{
     border: 1px solid black;
-    box-sizing: border-box;
-    padding:4%;
+    padding:5%;
     background-color: white;
     border-radius: 15px;
     box-shadow: 10px 10px black;
-    max-width: 400px;
+    max-width: 350px;
     max-height:550px;
 }
 
